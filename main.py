@@ -184,6 +184,7 @@ canvas1.create_line(0,284,190,284)
 canvas1.create_line(0,332,190,332)
 canvas1.create_line(0,378,190,378)
 
+canvas1.configure(bg='#F0F0F0')
 root.title("Real-Time Stocks by Zak Haider")
 root.resizable(False, False) 
 root.mainloop()
