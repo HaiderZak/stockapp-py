@@ -118,7 +118,7 @@ def OnHoverAPPL(event):
 def OnLeaveAPPL(event):
     event.widget.config(bg='#F0F0F0' ,padx=0, pady=0)
 
-AAPL = Label(root, text='AAPL', relief=FLAT)
+AAPL = Label(root, text='AAPL', relief=FLAT,bg='#F0F0F0')
 AAPL.bind('<Button-1>', OnPressedMenu)
 AAPL.bind('<Enter>', OnHoverAPPL)
 AAPL.bind('<Leave>', OnLeaveAPPL)
@@ -129,7 +129,7 @@ def OnHoverMSFT(event):
 def OnLeaveMSFT(event):
     event.widget.config(bg='#F0F0F0' ,padx=0, pady=0)
 
-MSFT = Label(root, text='MSFT', relief=FLAT)
+MSFT = Label(root, text='MSFT', relief=FLAT,bg='#F0F0F0')
 MSFT.bind('<Button-1>', OnPressedMenu)
 MSFT.bind('<Enter>', OnHoverMSFT)
 MSFT.bind('<Leave>', OnLeaveMSFT)
@@ -140,7 +140,7 @@ def OnHoverTSLA(event):
 def OnLeaveTSLA(event):
     event.widget.config(bg='#F0F0F0' ,padx=0, pady=0)
 
-TSLA = Label(root, text='TSLA', relief=FLAT)
+TSLA = Label(root, text='TSLA', relief=FLAT,bg='#F0F0F0')
 TSLA.bind('<Button-1>', OnPressedMenu)
 TSLA.bind('<Enter>', OnHoverTSLA)
 TSLA.bind('<Leave>', OnLeaveTSLA)
@@ -151,7 +151,7 @@ def OnHoverGOOGL(event):
 def OnLeaveGOOGL(event):
     event.widget.config(bg='#F0F0F0' ,padx=0, pady=0)
 
-GOOGL = Label(root, text='GOOGL', relief=FLAT)
+GOOGL = Label(root, text='GOOGL', relief=FLAT,bg='#F0F0F0')
 GOOGL.bind('<Button-1>', OnPressedMenu)
 GOOGL.bind('<Enter>', OnHoverGOOGL)
 GOOGL.bind('<Leave>', OnLeaveGOOGL)
@@ -162,7 +162,7 @@ def OnHoverAMZN(event):
 def OnLeaveAMZN(event):
     event.widget.config(bg='#F0F0F0' ,padx=0, pady=0)
 
-AMZN = Label(root, text='AMZN', relief=FLAT)
+AMZN = Label(root, text='AMZN', relief=FLAT,bg='#F0F0F0')
 AMZN.bind('<Button-1>', OnPressedMenu)
 AMZN.bind('<Enter>', OnHoverAMZN)
 AMZN.bind('<Leave>', OnLeaveAMZN)
