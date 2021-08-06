@@ -1,4 +1,3 @@
-# stockapp-py
 Python version of my Stock App created using Tkinter
 
 https://user-images.githubusercontent.com/37321974/128557450-48956bb7-75f0-43ed-bd46-fb2607c459d5.mp4
